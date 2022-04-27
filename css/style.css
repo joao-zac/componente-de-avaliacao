@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+/* Primary */
+
+--color-orange: hsl(25, 97%, 53%);
+
+/* Neutral */
+
+--color-white: hsl(0, 0%, 100%);
+--color-light-grey: hsl(217, 12%, 63%);
+--color-medium-grey: hsl(216, 12%, 54%);
+--color-dark-blue: hsl(213, 19%, 18%);
+--color-very-dark-blue: hsl(216, 12%, 8%);
+
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Overpass', sans-serif;
+    font-size: 15px;
+    background-color: var(--color-very-dark-blue);
+} 
+
+main{
+    display: flex;
+}
+
+.main{
+    padding: 2rem;
+    width: 21rem;
+    border-radius: 10px;
+    background: linear-gradient(120deg, var(--color-dark-blue), var(--color-very-dark-blue)); 
+} 
+
+.main svg{
+    background-color: var(--color-dark-blue);
+    height: 1.15rem;
+    padding: 0.5rem;
+    border-radius: 100%;
+}
+
+.main h1{
+    color: var(--color-white);
+    margin-top: 26px;
+}
+
+.main p {
+    font-size: 15px;
+    color: var(--color-light-grey);
+    margin-top: 13px;
+}
+
+.main ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.main ul button{
+    background-color: var(--color-dark-blue);
+    border-radius: 100%;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-width: 0;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 400;
+    color: var(--color-medium-grey);
+    transition: all 0.2s ease-in-out;
+}
+
+.main ul button:hover{
+    background-color: var(--color-orange);
+    font-weight: 300;
+    color: var(--color-white);
+    cursor: pointer;
+}
+
+.main ul button:focus{
+    background-color: var(--color-light-grey);
+    font-weight: 300;
+    color: var(--color-white);
+}
+
+.button-submit{
+    width: 100%;
+    margin-top: 28px;
+    padding: 1rem;
+    font-family: 'Overpass', sans-serif;
+    background-color: var(--color-orange);
+    border-width: 0;
+    border-radius: 25px;
+    color: var(--color-white);
+    transition: all 0.2s ease-in-out;
+    letter-spacing: 0.1em;
+}
+
+.button-submit:hover{
+    background-color: var(--color-white);
+    color: var(--color-orange);
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+/*                  SEGUNDA TELA                    */
+.pagedois{
+    padding: 2rem;
+    width: 21rem;
+    border-radius: 10px;
+    background: linear-gradient(120deg, var(--color-dark-blue), var(--color-very-dark-blue));
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pagedois img{
+    margin-top: 20px;
+    width: 10rem;
+    margin-bottom: 35px;
+}
+
+.pagedois .feedback{
+    color: var(--color-orange);
+    margin-bottom: 35px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    background-color: var(--color-dark-blue);
+}
+
+.pagedois h1{
+    color: var(--color-white);
+    font-weight: 400;
+}
+
+.pagedois p{
+    color: var(--color-medium-grey);
+    padding: 6px;
+    width: 340px;
+    text-align: center; 
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+footer{
+    margin-top: 80px;
+}
