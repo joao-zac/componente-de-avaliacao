@@ -1,3 +1,5 @@
+HOSTED PROJECT LINK: https://joao-zac.github.io/componente-de-avaliacao/
+
 # Frontend Mentor - Interactive rating component
 
 ![Design preview for the Interactive rating component coding challenge](./design/desktop-preview.jpg)
